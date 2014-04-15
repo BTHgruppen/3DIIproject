@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{f869e9f4-15fc-421c-b33a-5dd039583707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{e9e4fe25-e897-475c-b483-01d044c4e966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Objects">
+      <UniqueIdentifier>{84ba5eec-26de-4bd5-863a-013ae1fe9cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Objects\Cube">
+      <UniqueIdentifier>{5ef48b76-54b4-4541-9c6b-81585485c9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Objects\Plane">
+      <UniqueIdentifier>{9cd0e22a-6e44-431e-ae4f-07ff79308e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Shaders">
+      <UniqueIdentifier>{8e58caf4-a342-444a-ba37-32c27950629f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Misc">
+      <UniqueIdentifier>{ddddfde3-5611-4af8-a30c-87f7afd8efb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Bridges">
+      <UniqueIdentifier>{b339c5de-d4d7-478a-8008-ed5e418276f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Camera">
+      <UniqueIdentifier>{053e2578-bcb8-4e4a-8607-dcee9bbf8682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\DirectX">
+      <UniqueIdentifier>{dd0979f4-dd53-49c9-b3d3-addd189c3d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Main">
+      <UniqueIdentifier>{270aff5c-959a-4e79-baf5-8feb8d88659a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Win32">
+      <UniqueIdentifier>{6721445a-59bc-404d-b658-f11aa8cddfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Timer">
+      <UniqueIdentifier>{3780c501-d891-4c77-a390-e86686ebddc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Bridges\Shader">
+      <UniqueIdentifier>{2d636b1e-6778-47de-83e0-281f4a9476e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\Bridges\DepthShader">
+      <UniqueIdentifier>{85b12929-af6d-4bef-a418-5a6fdcc729d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Core\ShadowMap">
+      <UniqueIdentifier>{d3d65d5f-5928-4edf-a943-b4d93681b9ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Cube.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Plane.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Objects\Object.cpp">
+      <Filter>SourceFiles\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Cube\Cube.cpp">
+      <Filter>SourceFiles\Objects\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Plane\Plane.cpp">
+      <Filter>SourceFiles\Objects\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Bridges\Shader\Shader.cpp">
+      <Filter>SourceFiles\Core\Bridges\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Camera\Camera.cpp">
+      <Filter>SourceFiles\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DirectX\DirectX.cpp">
+      <Filter>SourceFiles\Core\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Main\Main.cpp">
+      <Filter>SourceFiles\Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Timer\Timer.cpp">
+      <Filter>SourceFiles\Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Win32\Win32.cpp">
+      <Filter>SourceFiles\Core\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EntryPoint.cpp">
+      <Filter>SourceFiles\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Bridges\DepthShader\DepthShader.cpp">
+      <Filter>SourceFiles\Core\Bridges\DepthShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ShadowMap\ShadowMap.cpp">
+      <Filter>SourceFiles\Core\ShadowMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Objects\Object.h">
+      <Filter>SourceFiles\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Cube\Cube.h">
+      <Filter>SourceFiles\Objects\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Plane\Plane.h">
+      <Filter>SourceFiles\Objects\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Inclusions.h">
+      <Filter>SourceFiles\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Bridges\Shader\Shader.h">
+      <Filter>SourceFiles\Core\Bridges\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Camera\Camera.h">
+      <Filter>SourceFiles\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DirectX\DirectX.h">
+      <Filter>SourceFiles\Core\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Main\Main.h">
+      <Filter>SourceFiles\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Timer\Timer.h">
+      <Filter>SourceFiles\Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Win32\Win32.h">
+      <Filter>SourceFiles\Core\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Bridges\DepthShader\DepthShader.h">
+      <Filter>SourceFiles\Core\Bridges\DepthShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ShadowMap\ShadowMap.h">
+      <Filter>SourceFiles\Core\ShadowMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\VertexShader.hlsl">
+      <Filter>SourceFiles\Shaders</Filter>
+    </None>
+    <None Include="Shaders\LightingShader.hlsl">
+      <Filter>SourceFiles\Shaders</Filter>
+    </None>
+    <None Include="Shaders\PixelShader.hlsl">
+      <Filter>SourceFiles\Shaders</Filter>
+    </None>
+    <None Include="Shaders\DepthPixelShader.hlsl">
+      <Filter>SourceFiles\Shaders</Filter>
+    </None>
+    <None Include="Shaders\DepthVertexShader.hlsl">
+      <Filter>SourceFiles\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
