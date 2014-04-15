@@ -20,30 +20,51 @@ GIT BRANCHING (using GIT BASH command line)
     ```
         git commit -m "Commit description"
     ```
- If GIT states that there are changes, use:
+If GIT states that there are changes, use:
     ```
         git add -p
     ```
- to go through a list of changes.
+to go through a list of changes.
 4. You can review your changes by using:
     ```
         git diff
     ```
- and
+and
     ```
         git status
     ```
 5. When you are ready to push to the master branch, use:
+    ```
         git checkout master
+    ```
+,
+    ```
         git pull --prune
+    ```
+,
+    ```
         git checkout yourBranchName
+    ```
+,
+    ```
         git rebase master
+    ```
 6. If you get any conflicts, solve these and then make sure the program runs. If it does, merge your branch:
+    ```
         git checkout master
+    ```
+,
+    ```
         git merge yourBranchName
+    ```
+,
+    ```
         git push
+    ```
 7. Finally, close your branch: 
+    ```
         git branch -d yourBranchName
+    ```
 --------------------------------------------------
 
 ==================================================
