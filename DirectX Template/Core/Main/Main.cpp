@@ -12,7 +12,7 @@
 
 #include "Main.h"
 
-// Only in death will you comment be known...
+// Please do not touch my comment, thank you.
 
 // ╔════════════════════════════════════════════════════════════════════════════════════╗
 // ║ Constructor and Destructor.														║
