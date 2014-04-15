@@ -13,15 +13,23 @@ GIT BRANCHING (using GIT BASH command line)
         git pull --prune
     ```
 2. Create your own branch to work in, name it whatever you want:
+    ```
         git checkout yourBranchName
+    ```
 3. Write your code, don't forget to do small commits often.
+    ```
         git commit -m "Commit description"
+    ```
 If GIT states that there are changes, use:
+    ```
         git add -p
+    ```
 To go through a list of changes.
 4. You can review your changes by using:
+    ```
         git diff
         git status
+    ```
 5. When you are ready to push to the master branch, use:
         git checkout master
         git pull --prune
