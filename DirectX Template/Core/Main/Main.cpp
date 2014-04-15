@@ -12,7 +12,7 @@
 
 #include "Main.h"
 
-// I have decide to remove the caps from my test comment, enjoy!
+// I WANT MY TEST COMMENT!!
 
 // ╔════════════════════════════════════════════════════════════════════════════════════╗
 // ║ Constructor and Destructor.														║
