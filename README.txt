@@ -20,14 +20,17 @@ GIT BRANCHING (using GIT BASH command line)
     ```
         git commit -m "Commit description"
     ```
-If GIT states that there are changes, use:
+ If GIT states that there are changes, use:
     ```
         git add -p
     ```
-To go through a list of changes.
+ to go through a list of changes.
 4. You can review your changes by using:
     ```
         git diff
+    ```
+ and
+    ```
         git status
     ```
 5. When you are ready to push to the master branch, use:
