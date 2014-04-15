@@ -9,7 +9,9 @@ GIT BRANCHING (using GIT BASH command line)
 ==================================================
 --------------------------------------------------
 1. At the start of your work, get the latest commits with:
+    ```
         git pull --prune
+    ```
 2. Create your own branch to work in, name it whatever you want:
         git checkout yourBranchName
 3. Write your code, don't forget to do small commits often.
