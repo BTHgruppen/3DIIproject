@@ -2,7 +2,7 @@
 // ║ Filename: Main.cpp																	║
 // ║																					║
 // ║ Copyright: Jonas Axelsson															║
-// ║ Created: 2013-02-05																	║
+// ║ Created: 2013-02-05																║
 // ║																					║
 // ║ Desciription:																		║
 // ║  Main class of the program, the Win32 window used for rendering and the DirectX	║
@@ -11,6 +11,7 @@
 // ╚════════════════════════════════════════════════════════════════════════════════════╝
 
 #include "Main.h"
+// Test comment.
 
 // ╔════════════════════════════════════════════════════════════════════════════════════╗
 // ║ Constructor and Destructor.														║
