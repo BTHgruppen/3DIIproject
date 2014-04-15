@@ -2,6 +2,7 @@
 ==================================================
 3D II PROJEKT GUIDELINES (Jonas Notation)
 ==================================================
+
 --------------------------------------------------
 
 ==================================================
@@ -9,7 +10,7 @@ FUNCTION LAYOUT
 ==================================================
 
 Should look something like this (Functions start with a capital letter):
-```c
+```cpp
 int Add(int a, int b)
 {
 	// Code goes here
