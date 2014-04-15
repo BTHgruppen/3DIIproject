@@ -8,9 +8,8 @@
 FUNCTION LAYOUT
 ==================================================
 
-Should look something like this:
-(Functions start with a capital letter)
-```cpp
+Should look something like this (Functions start with a capital letter):
+```c
 int Add(int a, int b)
 {
 	// Code goes here
