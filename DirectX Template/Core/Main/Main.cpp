@@ -12,7 +12,7 @@
 
 #include "Main.h"
 
-// I WANT MY TEST COMMENT!!
+// Only in death will you comment be known...
 
 // ╔════════════════════════════════════════════════════════════════════════════════════╗
 // ║ Constructor and Destructor.														║
