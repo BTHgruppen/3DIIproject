@@ -103,7 +103,7 @@ class Class
 	// Code goes here.
 };
 ```
---------------------------------------------------
+
 * MEMBER VARIABLES
 
 Member variables (such as variables local to a class), should be preceded by "m_".
@@ -117,7 +117,7 @@ class Class
 	// Code goes here.
 };
 ```
---------------------------------------------------
+
 * LOCAL VARIABLES
 
 Local variables (such as temporary variables used i functions), should be preceded by "l_".
@@ -131,7 +131,7 @@ if()
 	int i;
 }
 ```
---------------------------------------------------
+
 * PARAMETERS
 
 Functions input parameters should be preceded by "p_".
